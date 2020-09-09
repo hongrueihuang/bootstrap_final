@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-hide d-block bg-cover"
+                style="background-image: url(./images/logo-all-dark.svg); height:40px; width: 220px;" href="#">甜點電商</a>
+            <a href="./cart.html" class="btn btn-cart nav-link order-lg-1">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item text-primary active">
+                        <a class="nav-link text-primary" href="./index.html">首頁 <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-primary">
+                        <a class="nav-link" href="./product.html">甜點</a>
+                    </li>
+                    <li class="nav-item text-primary">
+                        <a class="nav-link" href="./login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-hide">六角甜點電商 | 甜點專賣首頁</h1>
+    <div class="container">
+        <!-- Banner -->
+        <div class="bg-cover success"
+            style="background-image: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c5a2cf31c693f5c15fb08135bf1adf2&auto=format&fit=crop&w=1347&q=80);height: 500px;">
+            <div class="pay-success w-50">
+                <div class="step">
+                    <div class="step-circle completed material-icons text-secondary">done</div>
+                    <div class="step-circle completed material-icons text-secondary">done</div>
+                    <div class="step-circle completed material-icons text-secondary">done</div>
+                </div>
+                <h1 class="text-primary text-center py-4">付款成功</h1>
+                <a href="./index.html" class="btn btn-warming next-step d-none d-lg-flex justify-content-center align-items-center text-primary">繼續逛逛</a>
+            </div>
+        </div>
+        <div class="d-lg-none">
+            <a href="./index.html"
+                class="btn btn-warming btn-block next-step d-flex align-items-center justify-content-center">繼續逛逛</a>
+        </div>
+        <!-- Subscription -->
+        <section class="bg-primary py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 d-flex justify-content-center my-2">
+                        <img src="./images/logo-light.svg" height="40" width="40" class="img-fluid">
+                        <span class="ml-4 subscription-title text-secondary">訂閱你我的甜蜜郵件</span>
+                    </div>
+                    <div class="col-lg-5 my-2">
+                        <div class="input-group subscription-input-wrap">
+                            <label for="subscription-input-id" class="subscription-label">
+                                <i class="fas fa-envelope"></i>
+                            </label>
+                            <input type="email" id="subscription-input-id"
+                                class="form-control bg-secondary subscription-input">
+                            <div class="input-group-append subscription-button">
+                                <button class="btn btn-warming rounded-0 w-100">
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-secondary py-4">
+            <div class="container">
+                <div class="row flex-column flex-lg-row justify-content-lg-between">
+                    <div class="col-lg-5 d-flex flex-column">
+                        <div class="bg-cover mb-5 mb-lg-11"
+                            style="background-image: url(./images/logo-all-dark.svg);height: 27px;width: 172px;"></div>
+                        <div class="footer-info text-primary mb-5 mb-lg-0">
+                            <div>07-1234-5678</div>
+                            <div>sweetaste@email.com</div>
+                            <div>800 高雄市新興區幸福路 520 號</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="text-right">
+                            <div class="bg-cover d-none d-lg-inline-block"
+                                style="background-image: url(./images/sm-今天是個吃甜點的好日子.svg);width: 60px;height: 220px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-3">
+                        <div class="footer-button">
+                            <a href="#" class="btn pl-0 text-primary"><i class="fab fa-line fa-2x"></i></a>
+                            <a href="#" class="btn pl-0 text-primary"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-primary copyright">
+                        <span>© 2018 Sweetaste* All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('.category-wrap').on('focus', function () {
+                    $(this).addClass('active');
+                    $(this).siblings().removeClass('active')
+                })
+            })
+        </script>
+</body>
+
+</html>

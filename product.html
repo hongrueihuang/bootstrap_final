@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-hide d-block bg-cover"
+                style="background-image: url(./images/logo-all-dark.svg); height:40px; width: 220px;" href="#">甜點電商</a>
+            <a href="./cart.html" class="btn btn-cart nav-link order-lg-1">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item text-primary">
+                        <a class="nav-link text-primary" href="./index.html">首頁 <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item text-primary active">
+                        <a class="nav-link" href="./product.html">甜點</a>
+                    </li>
+                    <li class="nav-item text-primary">
+                        <a class="nav-link" href="./login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-hide">六角甜點電商 | 甜點專賣商品列表</h1>
+    <div class="container">
+        <!-- Banner -->
+        <section class="row">
+            <div class="col bg-cover text-right banner" style="background-image: url(https://bit.ly/2Qodh3Z);">
+                <img src="./images/lg-想吃甜點是不需要理由的.svg" width="90" height="327" class="img-fluid mt-4 mr-4">
+            </div>
+        </section>
+        <!-- Main Content -->
+        <section class="row mt-lg-6">
+            <!-- Category -->
+            <div class="col-lg-4">
+                <ul class="list-unstyled w-100 dessert-category">
+                    <li class="py-3 text-center bg-primary text-secondary">
+                        <span>甜點類別</span>
+                    </li>
+                    <li class="text-center">
+                        <a href="#"
+                            class="d-inline-block w-100 h-100 py-3 bg-white text-decoration-none dessert-category-item active">所有甜點（48）</a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#"
+                            class="d-inline-block w-100 h-100 py-3 bg-white text-decoration-none dessert-category-item">本日精選（10）</a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#"
+                            class="d-inline-block w-100 h-100 py-3 bg-white text-decoration-none dessert-category-item">人氣推薦（26）</a>
+                    </li>
+                    <li class="text-center">
+                        <a href="#"
+                            class="d-inline-block w-100 h-100 py-3 bg-white text-decoration-none dessert-category-item">新品上市（12）</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Merchandise -->
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <div class="card-image-wrap">
+                                <div class="card-image bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);">
+                                </div>
+                                <div class="card-image-tag z-index-2 text-white">
+                                    本日精選
+                                </div>
+                                <a href="#" class="card-image-favorite d-inline-block z-index-2 text-danger">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-7 text-center py-3 item-name">焦糖馬卡龍</div>
+                                <div class="col-5 text-center py-3 font-weight-bold item-price">NT $450</div>
+                            </div>
+                            <button class="btn btn-block btn-secondary rounded-0 addcart">加入購物車</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <div class="card-image-wrap">
+                                <div class="card-image bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);">
+                                </div>
+                                <div class="card-image-tag z-index-2 text-white">
+                                    本日精選
+                                </div>
+                                <a href="#" class="card-image-favorite d-inline-block z-index-2 text-danger">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-7 text-center py-3 item-name">焦糖馬卡龍</div>
+                                <div class="col-5 text-center py-3 font-weight-bold item-price">NT $450</div>
+                            </div>
+                            <button class="btn btn-block btn-secondary rounded-0 addcart">加入購物車</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <div class="card-image-wrap">
+                                <div class="card-image bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);">
+                                </div>
+                                <div class="card-image-tag z-index-2 text-white">
+                                    本日精選
+                                </div>
+                                <a href="#" class="card-image-favorite d-inline-block z-index-2 text-danger">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-7 text-center py-3 item-name">焦糖馬卡龍</div>
+                                <div class="col-5 text-center py-3 font-weight-bold item-price">NT $450</div>
+                            </div>
+                            <button class="btn btn-block btn-secondary rounded-0 addcart">加入購物車</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <div class="card-image-wrap">
+                                <div class="card-image bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);">
+                                </div>
+                                <div class="card-image-tag z-index-2 text-white">
+                                    本日精選
+                                </div>
+                                <a href="#" class="card-image-favorite d-inline-block z-index-2 text-danger">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-7 text-center py-3 item-name">焦糖馬卡龍</div>
+                                <div class="col-5 text-center py-3 font-weight-bold item-price">NT $450</div>
+                            </div>
+                            <button class="btn btn-block btn-secondary rounded-0 addcart">加入購物車</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <div class="card-image-wrap">
+                                <div class="card-image bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);">
+                                </div>
+                                <div class="card-image-tag z-index-2 text-white">
+                                    本日精選
+                                </div>
+                                <a href="#" class="card-image-favorite d-inline-block z-index-2 text-danger">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-7 text-center py-3 item-name">焦糖馬卡龍</div>
+                                <div class="col-5 text-center py-3 font-weight-bold item-price">NT $450</div>
+                            </div>
+                            <button class="btn btn-block btn-secondary rounded-0 addcart">加入購物車</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="card rounded-0 border-0">
+                            <div class="card-image-wrap">
+                                <div class="card-image bg-cover" style="background-image: url(https://bit.ly/2QbVsVR);">
+                                </div>
+                                <div class="card-image-tag z-index-2 text-white">
+                                    本日精選
+                                </div>
+                                <a href="#" class="card-image-favorite d-inline-block z-index-2 text-danger">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-7 text-center py-3 item-name">焦糖馬卡龍</div>
+                                <div class="col-5 text-center py-3 font-weight-bold item-price">NT $450</div>
+                            </div>
+                            <button class="btn btn-block btn-secondary rounded-0 addcart">加入購物車</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center justify-content-lg-end">
+                    <div class="col-6">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link pagination-text" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link pagination-text" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link pagination-text" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link pagination-text" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link pagination-text" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Subscription -->
+    <section class="bg-primary py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 d-flex justify-content-center my-2">
+                    <img src="./images/logo-light.svg" height="40" width="40" class="img-fluid">
+                    <span class="ml-4 subscription-title text-secondary">訂閱你我的甜蜜郵件</span>
+                </div>
+                <div class="col-lg-5 my-2">
+                    <div class="input-group subscription-input-wrap">
+                        <label for="subscription-input-id" class="subscription-label">
+                            <i class="fas fa-envelope"></i>
+                        </label>
+                        <input type="email" id="subscription-input-id"
+                            class="form-control bg-secondary subscription-input">
+                        <div class="input-group-append subscription-button">
+                            <button class="btn btn-warming rounded-0 w-100">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-secondary py-4">
+        <div class="container">
+            <div class="row flex-column flex-lg-row justify-content-lg-between">
+                <div class="col-lg-5 d-flex flex-column">
+                    <div class="bg-cover mb-5 mb-lg-11"
+                        style="background-image: url(./images/logo-all-dark.svg);height: 27px;width: 172px;"></div>
+                    <div class="footer-info text-primary mb-5 mb-lg-0">
+                        <div>07-1234-5678</div>
+                        <div>sweetaste@email.com</div>
+                        <div>800 高雄市新興區幸福路 520 號</div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="text-right">
+                        <div class="bg-cover d-none d-lg-inline-block"
+                            style="background-image: url(./images/sm-今天是個吃甜點的好日子.svg);width: 60px;height: 220px;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-3">
+                    <div class="footer-button">
+                        <a href="#" class="btn pl-0 text-primary"><i class="fab fa-line fa-2x"></i></a>
+                        <a href="#" class="btn pl-0 text-primary"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-primary copyright">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.dessert-category-item').on('click', function () {
+                $(this).addClass('active');
+                $(this).parent().siblings().children().removeClass('active')
+            })
+        })
+    </script>
+</body>
+
+</html>
